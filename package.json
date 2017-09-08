@@ -1,12 +1,12 @@
 {
-  "name": "webassembly-test2",
+  "name": "rust-webassembly-typescript-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "webpack --progress",
-    "serve-compile": "webpack --progress --watch",
+    "compile-livereload": "webpack --progress --watch",
     "serve": "http-server"
   },
   "author": "Filip Kantedal",
@@ -14,7 +14,6 @@
   "devDependencies": {
     "@types/node": "^8.0.27",
     "http-server": "^0.10.0",
-    "rust-wasm-loader": "^0.1.2",
     "ts-loader": "^2.3.6",
     "typescript": "^2.5.2",
     "webpack": "^3.5.6",
