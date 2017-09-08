@@ -1,0 +1,1 @@
+rust-webassembly-typescript-webpack
